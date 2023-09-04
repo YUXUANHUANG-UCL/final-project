@@ -25,7 +25,7 @@ pip install path
 
 We use ShapeNet-55 for pre-training and ModelNet40 for fine-tuning.
 
-See xxxxxxxxxxxxxxxxxxxxxxxxxxx for details.
+See [DATASET.md](./datasets/DATASET.md) for details.
 
 ## 3. 3DTransNet Models
 
