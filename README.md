@@ -1,4 +1,4 @@
-### final-project
+# final-project
 
 ## 1. Requirements
 
@@ -28,6 +28,15 @@ We use ShapeNet-55 for pre-training and ModelNet40 for fine-tuning.
 See [README.md](./datasets/README.md) for details.
 
 ## 3. 3DTransNet Models
+
+| Task              | Dataset        | Acc.       | Checkpoints Download                                                                                     |
+|-------------------|----------------|------------|----------------------------------------------------------------------------------------------------------|
+| Pre-training      | ShapeNet55     | 88.00%.       | [3DTransNet_pretrain](https://drive.google.com/file/d/1XaNiyiyZNlvvr-jOPnRwxvRy7t9BMeZI/view?usp=drive_link)           |
+| Classification    | ModelNet40     | 84.22%     | [3DTransNet_Base](https://drive.google.com/file/d/1EN9KU_ChMrpxaHWu2j5kpxLHpYVC4RR6/view?usp=drive_link)       |
+| Classification    | ModelNet40     | 88.60%     | [3DTransNet_UF](https://drive.google.com/file/d/10elqJtPs8fqsdWfa1f4eSIx-Jx_2_7yD/view?usp=drive_link)          |
+| Classification    | ModelNet40     | 89.24%     | [3DTransNet_F](https://drive.google.com/file/d/1al0OENL2xTu9i_Ne1CNDmv01rh_mqykC/view?usp=drive_link)        |
+| Classification    | ModelNet40     | 88.16%      | [3DTransNet_EF](https://drive.google.com/file/d/1lXlZC-P0ob8d6GhIoKVD_sYNYDjGdTmF/view?usp=drive_link)     |
+
 
 ## 4. Pre-training
 
